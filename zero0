@@ -1,0 +1,9 @@
+$mongoDb->put('employees', 25, json_encode([
+    'id' => 25,
+    'name' => [
+        'last' => 'testo',
+        'first' => 'create',
+        'middle' => 'competition',
+    ],
+    ...
+]));
